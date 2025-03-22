@@ -18,7 +18,7 @@ services:
       - MYSQL_ROOT_PASSWORD=Npsmukund123!@#
       - MYSQL_DATABASE=author
       - MYSQL_USER=akhilgc009
-      - MYSQL_PASSWORD=Npsmukund123!@# 
+      - MYSQL_PASSWORD=Npsmukund
 
     volumes:
       - nop:/var/lib/backup/data
