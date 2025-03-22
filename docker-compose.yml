@@ -15,10 +15,10 @@ services:
   nop_mysql:
     image: mysql:8.0.41-debian
     environment:
-      - MYSQL_ROOT_PASSWORD='Npsmukund123!@#'
-      - MYSQL_DATABASE='author'
-      - MYSQL_USER='akhilgc009'
-      - MYSQL_PASSWORD='Npsmukund123!@#'
+      - MYSQL_ROOT_PASSWORD=Npsmukund123!@#
+      - MYSQL_DATABASE=author
+      - MYSQL_USER=akhilgc009
+      - MYSQL_PASSWORD=Npsmukund123!@# 
 
     volumes:
       - nop:/var/lib/backup/data
